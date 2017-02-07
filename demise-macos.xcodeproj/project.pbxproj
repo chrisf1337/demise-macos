@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8921154B1E497E1C00ADBE79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8921154A1E497E1C00ADBE79 /* AppDelegate.swift */; };
+		8921154D1E497E1C00ADBE79 /* BufferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8921154C1E497E1C00ADBE79 /* BufferViewController.swift */; };
+		8921154F1E497E1C00ADBE79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8921154E1E497E1C00ADBE79 /* Assets.xcassets */; };
+		892115521E497E1C00ADBE79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892115501E497E1C00ADBE79 /* Main.storyboard */; };
+		897254891E497EE200D39475 /* BufferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897254881E497EE200D39475 /* BufferView.swift */; };
+		A365DCEB1E72B0986A59441B /* Pods_demise_macos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AA6CB33B0BEC3126E36BB8 /* Pods_demise_macos.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		051794A871249536126F2301 /* Pods-demise-macos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demise-macos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-demise-macos/Pods-demise-macos.debug.xcconfig"; sourceTree = "<group>"; };
+		892115471E497E1C00ADBE79 /* demise-macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "demise-macos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8921154A1E497E1C00ADBE79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8921154C1E497E1C00ADBE79 /* BufferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BufferViewController.swift; sourceTree = "<group>"; };
+		8921154E1E497E1C00ADBE79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		892115511E497E1C00ADBE79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		892115531E497E1C00ADBE79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		897254881E497EE200D39475 /* BufferView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BufferView.swift; sourceTree = "<group>"; };
+		A3D3190B96D9FB33D064BDB1 /* Pods-demise-macos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demise-macos.release.xcconfig"; path = "Pods/Target Support Files/Pods-demise-macos/Pods-demise-macos.release.xcconfig"; sourceTree = "<group>"; };
+		F7AA6CB33B0BEC3126E36BB8 /* Pods_demise_macos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demise_macos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		892115441E497E1C00ADBE79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A365DCEB1E72B0986A59441B /* Pods_demise_macos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A38E54D5BAD95781B6221F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				051794A871249536126F2301 /* Pods-demise-macos.debug.xcconfig */,
+				A3D3190B96D9FB33D064BDB1 /* Pods-demise-macos.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8921153E1E497E1C00ADBE79 = {
+			isa = PBXGroup;
+			children = (
+				892115491E497E1C00ADBE79 /* demise-macos */,
+				892115481E497E1C00ADBE79 /* Products */,
+				2A38E54D5BAD95781B6221F1 /* Pods */,
+				B0BDE89709380E2B8FAE4462 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		892115481E497E1C00ADBE79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				892115471E497E1C00ADBE79 /* demise-macos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		892115491E497E1C00ADBE79 /* demise-macos */ = {
+			isa = PBXGroup;
+			children = (
+				8921154A1E497E1C00ADBE79 /* AppDelegate.swift */,
+				8921154C1E497E1C00ADBE79 /* BufferViewController.swift */,
+				897254881E497EE200D39475 /* BufferView.swift */,
+				8921154E1E497E1C00ADBE79 /* Assets.xcassets */,
+				892115501E497E1C00ADBE79 /* Main.storyboard */,
+				892115531E497E1C00ADBE79 /* Info.plist */,
+			);
+			path = "demise-macos";
+			sourceTree = "<group>";
+		};
+		B0BDE89709380E2B8FAE4462 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7AA6CB33B0BEC3126E36BB8 /* Pods_demise_macos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		892115461E497E1C00ADBE79 /* demise-macos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 892115561E497E1C00ADBE79 /* Build configuration list for PBXNativeTarget "demise-macos" */;
+			buildPhases = (
+				F6CE9BD58FC2FC7DA4A8C5B3 /* [CP] Check Pods Manifest.lock */,
+				892115431E497E1C00ADBE79 /* Sources */,
+				892115441E497E1C00ADBE79 /* Frameworks */,
+				892115451E497E1C00ADBE79 /* Resources */,
+				970DAE077AC5AD58248CD189 /* [CP] Embed Pods Frameworks */,
+				139088BC950F3302391EDFB0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "demise-macos";
+			productName = "demise-macos";
+			productReference = 892115471E497E1C00ADBE79 /* demise-macos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8921153F1E497E1C00ADBE79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = 2amp;
+				TargetAttributes = {
+					892115461E497E1C00ADBE79 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 892115421E497E1C00ADBE79 /* Build configuration list for PBXProject "demise-macos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8921153E1E497E1C00ADBE79;
+			productRefGroup = 892115481E497E1C00ADBE79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				892115461E497E1C00ADBE79 /* demise-macos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		892115451E497E1C00ADBE79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8921154F1E497E1C00ADBE79 /* Assets.xcassets in Resources */,
+				892115521E497E1C00ADBE79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		139088BC950F3302391EDFB0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-demise-macos/Pods-demise-macos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		970DAE077AC5AD58248CD189 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-demise-macos/Pods-demise-macos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6CE9BD58FC2FC7DA4A8C5B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		892115431E497E1C00ADBE79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8921154D1E497E1C00ADBE79 /* BufferViewController.swift in Sources */,
+				8921154B1E497E1C00ADBE79 /* AppDelegate.swift in Sources */,
+				897254891E497EE200D39475 /* BufferView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		892115501E497E1C00ADBE79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				892115511E497E1C00ADBE79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		892115541E497E1C00ADBE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		892115551E497E1C00ADBE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		892115571E497E1C00ADBE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 051794A871249536126F2301 /* Pods-demise-macos.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "demise-macos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.2amp.demise-macos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		892115581E497E1C00ADBE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3D3190B96D9FB33D064BDB1 /* Pods-demise-macos.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "demise-macos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.2amp.demise-macos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		892115421E497E1C00ADBE79 /* Build configuration list for PBXProject "demise-macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				892115541E497E1C00ADBE79 /* Debug */,
+				892115551E497E1C00ADBE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		892115561E497E1C00ADBE79 /* Build configuration list for PBXNativeTarget "demise-macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				892115571E497E1C00ADBE79 /* Debug */,
+				892115581E497E1C00ADBE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8921153F1E497E1C00ADBE79 /* Project object */;
+}

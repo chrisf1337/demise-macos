@@ -1,0 +1,15 @@
+PODS:
+  - SnapKit (3.1.2)
+  - SwiftSocket (2.0.1)
+
+DEPENDENCIES:
+  - SnapKit
+  - SwiftSocket
+
+SPEC CHECKSUMS:
+  SnapKit: 12b24f569cb7c143acc9c22b9d91b23e7b1c84a2
+  SwiftSocket: 2d814afdc97c89217982f86fd036c1874134a63f
+
+PODFILE CHECKSUM: e46ddca9d24ba0d3746b707e3ee089dec40ca8a5
+
+COCOAPODS: 1.1.1
